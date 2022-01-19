@@ -22,7 +22,7 @@ npm install
 
 ## Installing MongoDB
 
-The project depends on MongoDB to be handle the database collections. Make sure that you have MongoDB (Community Edition) running on your machine. Here are some instructions on how to download MongoDB for different operating systems. (https://docs.mongodb.com/manual/installation/)
+The project depends on MongoDB to handle the database collections. Make sure that you have MongoDB (Community Edition) running on your machine. Here are some instructions on how to download MongoDB for different operating systems. (https://docs.mongodb.com/manual/installation/)
 
 Once that is installed, start the mongo shell with this command
 
@@ -53,7 +53,7 @@ You will need this to be running in order for the entire app to store data in th
 
 ## Running the Webpage
 
-To start the svelte app run the following command in the "frontent" folder
+In a different terminal window, run this command to start the webpage.
 
 ```bash
 # start the webpage
@@ -68,7 +68,7 @@ Once you submit the information in the input boxes, an alert should appear sayin
 
 ## See information in MongoDB
 
-After you have submitted a couple of names and occupations you can go bach to the mongo shell and see the information there. Here is how to find that information
+After you have submitted a couple of names and occupations you can go back to the mongo shell and see the information there. Here is how to find that information
 
 ```bash
 mongosh
