@@ -53,7 +53,7 @@ You will need this to be running in order for the entire app to store data in th
 
 ## Running the Webpage
 
-In a different terminal window, run this command to start the webpage.
+In a different terminal window, run this command in the "frontend" folder to start the webpage.
 
 ```bash
 # start the webpage
