@@ -1,7 +1,11 @@
 <script>
 	import axios from "axios";
+	import Test from "../components/Test.svelte";
 	let name = "";
 	let occupation = "";
+	let data = {
+		text: "merp"
+	}
 
 	const api = axios.create({
 		baseURL : "http://localhost:3000"
@@ -27,6 +31,9 @@
 <!-- HTML -->
 <h1>Welcome to the Svelte Pilot App!</h1>
 
+<h1>{data.text}</h1>
+
+<Test bind:data></Test>
 <input bind:value={name} placeholder="Name">
 <input bind:value={occupation} placeholder="Occupation">
 
